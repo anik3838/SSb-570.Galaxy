@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 90px;
+    background: white;
+}
+.logo {
+	width: 80%;
+	margin: 20px 0px 0px 94px;
+}
+.menu h6 {
+	margin: 30px 0px 0px 0px;
+	font-size: 15px;
+	cursor: pointer;
+	color: #959697;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.banner{
+    background-image: url(https://i.ibb.co/k2Vf5bc/spaceship-orbits-dark-galaxy-glowing-blue-comet-generated-by-ai.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.banner::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: black;
+    top: 0px;
+    left: 0px;
+    opacity: .6;
+    z-index: -1;
+}
+
+.banner h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1%;
+    margin-top: 250px;
+    display: inline-block;
+
+}
+.banner p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3%;
+}
+.learn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+   background:#fc4c29;
+   border-radius: 5px;
+   border: 1px solid white;
+   font-family: 'Roboto', sans-serif;
+}
+.learn a i{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.body {
+	height: 200px;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.body1 .web {
+	height: 55px;
+	width: 55px;
+	background: #ee3814;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 71px;
+	margin-left: 67px;
+}
+.body1 {
+    width: 180px;
+    text-align: center;
+    margin-top: 5%;
+}
+.body1 h5 {
+	/* margin-top: ; */
+	margin: 9px 0px 10px 10px ;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.body1 p{
+    font-family: 'Roboto', sans-serif;
+    color: #959697;
+    width: 112%;
+}
+.body2 .web{
+    height: 55px;
+    width: 55px;
+    background:#ee3814;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 73px;
+    margin-left: 67px;
+    
+
+}
+.body2 {
+    width: 180px;
+    text-align: center;
+    margin-top: 5%;
+}
+.body2 h5 {
+	/* margin-top: ; */
+    margin: 9px 0px 10px 10px ;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.body2 p{
+    font-family: 'Roboto', sans-serif;
+    color: #959697;
+    width: 112%;
+}
+.body3 .web {
+	height: 55px;
+	width: 55px;
+	background: #ee3814;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 67px;
+	margin-left: 67px;
+}
+.body3 {
+    width: 180px;
+    text-align: center;
+    margin-top: 5%;
+}
+.body3 h5 {
+    margin: 9px 0px 10px 10px ;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.body3 p{
+    font-family: 'Roboto', sans-serif;
+    color: #959697;
+    width: 112%;
+}
+.artical p {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: #fc4e2c;
+    margin-left: 29%;
+    font-size: 24px;
+    width: 43%;
+    text-align: center;
+    margin-top: 3%;
+}
+.galaxy{
+    margin-left: 8%;
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    
+}
+.galaxy .cool{
+ margin-left: 2%;
+}
+.galaxy .cool img{
+    width:350px ;
+    height: 250px;
+}
+.galaxy .cool h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 35%;
+    padding: 10px 0;
+}
+.galaxy .cool p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: #959697;
+    margin-left: 36%;
+
+}
+.galaxy .cool2{
+ margin-left: 2%;
+}
+.galaxy .cool2 img{
+    width:350px ;
+    height: 250px;
+}
+.galaxy .cool2 h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 35%;
+    padding: 10px 0;
+}
+.galaxy .cool2 p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: #959697;
+    margin-left: 38%;
+
+}
+.galaxy .cool3{
+ margin-left: 2%;
+}
+.galaxy .cool3 img{
+    width:350px ;
+    height: 250px;
+}
+.galaxy .cool3 h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 35%;
+    padding: 10px 0;
+}
+.galaxy .cool3 p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: #cdd1d4;
+    margin-left: 36%;
+    padding-bottom: 20%;
+
+}
+
+.design{
+    background: #f9f9f9;
+    height: 700px;
+
+    
+}
+.design h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 50px 0;
+    font-weight: 400;
+}
+.blog{
+    display: flex;  
+    margin-left: 10%;
+
+}
+.pic img{
+    width: 80%;
+    height: 400px;
+
+}
+.pic h5{
+    color: #fc4c29;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.pic p {
+	color: #6e6d6d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	width: 75%;
+}
+
+
+footer{
+    background: #292c34;
+    height: 80px;
+
+}
+
+.last img {
+    margin: 25px 0px 0px 135px;
+}
+.last ul {
+    list-style: none;
+    width: 26%;
+    margin: -31px 6px 0px 205px;
+}
+.last ul li{
+
+}
+.last ul li a{
+    text-decoration: none;
+    color: #797c82;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.icon {
+    display: flex;
+    justify-content: end;
+    width: 90%;
+    margin-top: -15px;
+}
+.icon ul{
+    list-style: none;
+    display: flex;
+
+
+}
+.icon ul li{
+
+
+}
+.icon ul li a {
+    color: #3d3d3d;
+    padding: 0px 30px;
+    color:white;
+}
